@@ -1,0 +1,7 @@
+{
+  "name": "macakes-deploy-root",
+  "private": true,
+  "scripts": {
+    "cf-deploy": "pnpm --dir macakes-site install --frozen-lockfile && pnpm --dir macakes-site run cf-deploy"
+  }
+}
