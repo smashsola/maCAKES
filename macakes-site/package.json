@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "vinext dev",
     "build": "vinext build",
-    "start": "wrangler dev --config dist/server/wrangler.json --port 3000",
+    "deploy": "npx @vinext/cloudflare deploy",
+    "start": "vinext start",
     "lint": "oxlint",
     "format": "oxfmt"
   },
