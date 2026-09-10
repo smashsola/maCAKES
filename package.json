@@ -1,0 +1,8 @@
+{
+  "name": "macakes-cloudflare-deploy",
+  "private": true,
+  "packageManager": "pnpm@10.9.2",
+  "scripts": {
+    "deploy": "cd macakes-site && npx @vinext/cloudflare deploy"
+  }
+}
