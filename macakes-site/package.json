@@ -9,6 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "deploy": "node scripts/deploy-cloudflare.mjs",
+    "cf-deploy": "node scripts/deploy-cloudflare.mjs",
     "start": "vinext start",
     "lint": "oxlint",
     "format": "oxfmt"
